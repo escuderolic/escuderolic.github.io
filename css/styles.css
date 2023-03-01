@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap");
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0 20px; }
+  body .cv-content-wrapper {
+    width: auto;
+    display: table;
+    margin: 0 auto; }
+    body .cv-content-wrapper .cv-top {
+      display: table;
+      margin: 0 auto 25px auto; }
+      body .cv-content-wrapper .cv-top h1 {
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-align: center;
+        font-size: 45px;
+        line-height: 45px; }
+      body .cv-content-wrapper .cv-top .cv-img {
+        display: table;
+        margin: 0 auto; }
+        body .cv-content-wrapper .cv-top .cv-img img {
+          width: 150px;
+          border-radius: 100%; }
+      body .cv-content-wrapper .cv-top .cv-nombre h2 {
+        text-align: center;
+        color: #147133; }
+    body .cv-content-wrapper .cv-bottom {
+      display: table;
+      margin: 0 auto; }
+      body .cv-content-wrapper .cv-bottom .cv-informacion {
+        display: table;
+        margin: 0 auto; }
+        body .cv-content-wrapper .cv-bottom .cv-informacion h3 {
+          font-size: 26px;
+          line-height: 26px;
+          text-align: center; }
+          @media (min-width: 1280px) {
+            body .cv-content-wrapper .cv-bottom .cv-informacion h3 {
+              text-align: left; } }
+        body .cv-content-wrapper .cv-bottom .cv-informacion h4 {
+          text-align: center;
+          font-size: 30px;
+          line-height: 30px;
+          margin: 0; }
+        body .cv-content-wrapper .cv-bottom .cv-informacion #user-info {
+          display: none;
+          margin: 0 auto; }
+          body .cv-content-wrapper .cv-bottom .cv-informacion #user-info.mostrar {
+            display: block; }
+        body .cv-content-wrapper .cv-bottom .cv-informacion button.button {
+          border-radius: 5px;
+          background-color: #ff106a;
+          color: #fff;
+          text-align: center;
+          width: 250px;
+          padding: 15px 10px;
+          font-family: 'Roboto', sans-serif;
+          font-size: 20px;
+          display: table;
+          margin: 10px auto 0 auto;
+          cursor: pointer; }
+          body .cv-content-wrapper .cv-bottom .cv-informacion button.button#ocultar-info {
+            display: none; }
+            body .cv-content-wrapper .cv-bottom .cv-informacion button.button#ocultar-info.mostrar {
+              display: block; }
+          body .cv-content-wrapper .cv-bottom .cv-informacion button.button.mostrar {
+            display: block; }
+          body .cv-content-wrapper .cv-bottom .cv-informacion button.button.ocultar {
+            display: none; }
+        body .cv-content-wrapper .cv-bottom .cv-informacion p {
+          display: table;
+          text-align: center; }
+          @media (min-width: 1280px) {
+            body .cv-content-wrapper .cv-bottom .cv-informacion p {
+              text-align: left; } }
+
