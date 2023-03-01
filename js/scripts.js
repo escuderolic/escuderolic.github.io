@@ -32,7 +32,5 @@ function ocultar_datos() {
 		if( buttonMostrar.classList.contains( 'ocultar' ) ) {
 			buttonMostrar.classList.remove( 'ocultar' );
 		}
-	} else {
-	
 	}
 }
